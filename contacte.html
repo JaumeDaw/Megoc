@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Megòc</title>
+    <link rel="shortcut icon" href="./img/logoMegoc.svg" />
+    <link rel="stylesheet" href="css/estils.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="./quiSom.html">
+          <img src="./img/LogoNoBg.png" alt="logoMegoc" />
+        </a>
+      </div>
+    </header>
+    <nav id="movil">
+      <div>
+        <i class="fa-solid fa-bars fa-3x"></i>
+        <nav id="desplegable-hamburguesa">
+          <ul>
+            <!-- <li>Qui som</li> -->
+            <a href="./quiSom.html"><li>Qui som</li></a>
+            <a href="./propersConcerts.html"><li>Propers concerts</li></a>
+            <a href="./volsCantar.html"><li>Vols cantar</li></a>
+            <li>
+              <span
+                ><a href="https://www.facebook.com/ModernEspaiGospelCor/"
+                  ><i class="fa-brands fa-facebook"></i></a
+              ></span>
+              <span>
+                <a href="https://www.instagram.com/modernespaigospelcor/"
+                  ><i class="fa-brands fa-instagram"></i></a
+              ></span>
+              <span
+                ><a
+                  href="https://www.youtube.com/@modernespaigospelcor-megoc9290"
+                  ><i class="fa-brands fa-youtube"></i></a
+              ></span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <select name="lang" class="lang">
+        <option value="Val">Valencià</option>
+        <option value="Cas">Castellano</option>
+        <option value="Eng">English</option>
+      </select>
+    </nav>
+    <nav id="ordenador">
+      <div>
+        <ul>
+          <li><a href="https://www.facebook.com/ModernEspaiGospelCor/"><i class="fa-brands fa-facebook fa-2x"></i></a></li>
+          <li><a href="https://www.instagram.com/modernespaigospelcor/"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+          <li><a href="https://www.youtube.com/@modernespaigospelcor-megoc9290"><i class="fa-brands fa-youtube fa-2x"></i></a></li>
+          <li>
+            <select name="lang" id="lang">
+              <option value="Val">Valencià</option>
+              <option value="Cas">Castellano</option>
+              <option value="Eng">English</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <a href="./quiSom.html"><li>Qui som</li></a>
+          <a href="./propersConcerts.html"><li>Propers concerts</li></a>
+          <a href="./volsCantar.html"><li>Vols cantar</li></a>
+        </ul>
+      </div>
+    </nav>
+    <main id="contacte">
+      <h1>Contacte:</h1>
+      <form action="">
+        <div>
+          <label for="nom">Nom</label>
+          <input type="text" name="nom" id="nom">
+
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+
+        </div>
+        <div>
+          <label for="rao">Raó contacte</label>
+          <textarea name="rao" id="rao" cols="30" rows="5"></textarea>
+        </div>
+        <p>
+          <button type="button">Enviar</button>
+        </p>
+      </form>
+      
+    </main>
+    <aside id="cookies">
+      <p>Aquesta pàgina usa cookies</p>
+      <button id="cookiesBtn">ACEPTAR</button>
+    </aside>
+    <script src="./scripts/movilMenu.js"></script>
+    <script src="./scripts/cookies.js"></script>
+  </body>
+</html>
